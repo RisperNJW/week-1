@@ -12,31 +12,51 @@
 <body>
     <div class="navbar">
         <nav>
+            <div class="menu">Menu</div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Hire Me</a></li>
+                <li><a href="#hire">Hire</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact Us</a></l>
             </ul>
         </nav>
     </div>
-        <div class="content">
-            <span class="Title">Software Developer</span>
-            <H1>Hello, I'm delighted to be your favourite. Welcome am <span>Risper Njeri</span></H1>
-            <p>I'm a motivatated Software Developer.<br> Desired in innovative technological solutions, <br> with efficiency and commited to excellence -
-            values that seamlessly provide customer centric solutions.</p>
-            <a href="./resume.pdf" download= "Risper.pdf" class="btn">Download Cv</a>
+
+        <div class="content" id="about">
+            <h1> <span>Software Developer</span> <br>
+                <span>Risper Njeri</span>
+            </h1>
+            <p>Hello, with pleasure am delighted to be your favourite. <br> 
+            I'm a motivatated Software Developer.<br> Desired in innovative technological solutions, <br> with efficiency and commited to excellence -
+            <br>values that seamlessly provide customer centric solutions.</p>
+            <a href="./resume.pdf" download="Risper.pdf" class="btn">Download Cv</a>
+            <br>
+            <br>
+            <p>CONTACT US</p>
         </div>
+        <form action="#"id="contact"  method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">Message:</label>
+            <TExtarea id="message" name="message" rows="3" required></TExtarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="content1" id="service">
+            <h2>Our services</h2>
+            <p> Quality service tailored to solutions and growth. <br>Empowering success where ideas take a flight.</p>
+        </div>
+
 
         <div class="image"><img src="logo.png" alt="logo"></a></div> 
 
-        <video width="700" height="250" controls>
+        <video width="700" height="250" controls >
             <source src="Animated_Website_Presentation(480p).mp4" type="video/mp4">
         </video>
     
-
-    <div class="footer">
+    <div class="footer" id="hire">
         <ul>
             <li><a href="#">Facebook</a></li>
             <li><a href="#">LinkedIn</a></li>

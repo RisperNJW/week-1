@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+
 }
 .navbar {
     position: relative;
@@ -12,7 +13,7 @@
 }
 nav {
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -45,12 +46,13 @@ nav ul li a:hover {
     border: 2px solid chocolate;
 }
 .content {
-    margin-left: 8%;
-    margin-top: 15%;
+    margin-left: 20%;
+    margin-top: 10%;
+
 }
 .content .Title {
     color: sienna;
-    font-size: 50px;
+    font-size: 100px;
     text-transform: uppercase;
     letter-spacing: 4px;
     display: inline-block;
@@ -58,11 +60,15 @@ nav ul li a:hover {
 }
 .content h1 {
     color: sandybrown;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 .content h1 span {
+    font-size: 50px;
     color: rgb(145, 121, 93);
+}
+.content p {
+    font-size: 20px;
 }
 .content a {
     background: gray;
@@ -76,6 +82,21 @@ nav ul li a:hover {
     color: sienna;
     line-height: 22px;
 }
+.content1 {
+    margin-left: 8%;
+     margin-top: 15%;
+}
+.content1 p {
+    color: sienna;
+    line-height: 22px;
+    font-size: 18px;
+}
+.content1 h2 {
+    color: sandybrown;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
 .image {
     width: 30%;
     height: 85%;
@@ -91,10 +112,40 @@ nav ul li a:hover {
     transform: translateX(-40%);
     transition: bottom 1s, left 1s;
 }
+ * {
+    font-family: sans-serif;
+    margin: 20px;
+ }
+form {
+    max-width: 20%;
+    background-color: burlywood;
+}
+
+input,
+textarea {
+    max-width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rosybrown;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
 .footer {
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: 15vh;
+    height: 10%;
     background: burlywood;
     
 }
